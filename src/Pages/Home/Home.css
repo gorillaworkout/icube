@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
+
+.outer-home{
+    width:100%;
+    /* padding:40px 40px 40px 40px; */
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #eeeeee; */
+}
+.box-home{
+    /* overflow: auto; */
+    width:100%;
+    height:100vh;
+    margin-bottom:100px;
+    /* background-color: pink; */
+}
+
+.header-home{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+.left-header{
+/* background-color: blue; */
+width:30%;
+display: flex;
+justify-content: center;
+}
+.left-header p{
+    font-family: Righteous;
+    font-size:40px;
+    font-weight:800;
+    color:#f9ca24;
+}
+
+.right-header{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    width:80px;
+    /* background-color: yellow; */
+}
+.box-option:hover{
+    cursor: pointer;
+}
+.box-option p{
+        font-family: Roboto;
+        color:white;
+      
+}
+.box-option2{
+    font-family: Roboto;
+    color:#f9ca24;
+    width:100px;
+    /* background-color: yellow; */
+}
+
+
+.header-option{
+    /* background-color: red; */
+    /* height:300px; */
+    height:100%;
+    font-family: Righteous;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    /* position: relative; */
+    /* top:100px; */
+}
+.header-welcome{
+    /* background-color: blue; */
+    line-height: 1;
+}
+.header-welcome2{
+    /* background-color: green; */
+    line-height: 1;
+}
+.header-welcome3{
+    background-color: #f9ca24;
+    width:150px;
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+}
+.header-welcome p{
+    font-size:30px;
+    color:white;
+}
+.header-welcome2 p{
+    font-size:50px;
+    color:white;
+}
+.header-welcome3 p{
+    color:white;
+}
+
+
+.product-box{
+    height:100vh;
+    width:100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-product{
+    height:100vh;
+    width:60%;
+    /* background-color: blue; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    
+    /* align-items: center; */
+}
+.product-name{
+    height:100px;
+    width:300px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom:50px;
+    /* top:100px; */
+
+}
+.product-name p:nth-child(1){
+    font-size: 30px;
+    font-family: Righteous;
+    line-height: 1;
+}
+.product-name p:nth-child(2){
+    font-size: 20px;;
+    font-family: Droid+serif;
+    color:gray;
+    line-height:0;
+}
+.box-atas{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+    margin-bottom:10px;
+}
+.box-atas-kecil{
+    width:30%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.canvas-kecil{
+    width:250px;
+    height:165px;
+    background-color: black;
+    /* border:1px solid black; */
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.canvas-kecil-img{
+    width:250px;
+    height:165px;
+}
+
+
+.photo-box{
+    width:100%;
+    height:100%;
+    /* background-color: pink; */
+    /* border: 1px solid gray; */
+    
+}
+
+.big-photo{
+    width:530px;
+    height:350px;
+    /* background-color: green; */
+    /* border:1px solid black; */
+    margin-right:25px;
+}
+
+.box-bawah{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    /* background: red; */
+}
+
+
+
+.canvas-kecil-bawah{
+    width:250px;
+    height:165px;
+    background-color: yellow;
+    /* border:1px solid black; */
+    margin-bottom:20px;
+    margin-right:30px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-box{
+height:80%;
+width:100%;
+background-image:url(../../Assets/contact-bg.jpg);
+/* height:100vh; */
+/* width:100%; */
+/* background-color: red; */
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.container-contact{
+    height:100vh;
+    width:60%;
+    /* background-color: blue; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+    
+    /* align-items: center; */
+}
+
+.contact-name{
+    height:100px;
+    width:300px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom:50px;
+    /* top:100px; */
+
+}
+.contact-name p:nth-child(1){
+    font-size: 30px;
+    font-family: Righteous;
+    line-height: 1;
+    color:white;
+}
+.contact-name p:nth-child(2){
+    font-size: 20px;;
+    font-family: Droid+serif;
+    color:#636e72;
+    line-height:1;
+}
+
+.box-cart{
+    width:120px;
+    height:130px;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 100;
+    position: relative;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top:-175px;
+    
+    
+}
+.box-cart p:nth-child(1){
+    font-family: Montserrat;
+    font-size:25px;
+    line-height: 1;
+    /* background: red; */
+}
+.box-cart p:nth-child(2){
+    font-family: Righteous;
+    font-size:20px;
+    line-height: 0;
+    /* background-color: red; */
+}
+
+.btn-add{
+    background: #f9ca24;
+    border:none;
+    height:30px;
+    color:white;
+    margin-bottom:10px;
+}
+.btn-add:hover{
+    cursor: pointer;
+}
+
+.input-box{
+    height:200px;
+    width:100%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.input-kiri{
+    width:50%;
+
+}
+
+.input-isi{
+    height:40px;
+    width:400px;
+    margin:10px;
+    border-radius:5px;
+    border:none;
+}
+.input-isi-2{
+    width:400px;
+    height:165px;
+    margin:10px;
+    border-radius:5px;
+    border:none;
+}
+
+.box-message{
+    width:100%;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn-message{
+    height:50px;
+    width:150px;
+    background: #f9ca24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:5px;
+}
+.btn-message:hover{
+    cursor: pointer;
+}
+.btn-message p{
+    font-family:roboto;
+    color:white;
+}
+
+.modal-save{
+    width:100%;
+    height:500px;
+    /* background: red; */
+    position: relative;
+    /* top:-200px; */
+}
+.close{
+    width:100%;
+    height:70px;
+    display: flex;
+    justify-content: flex-end;
+    /* background: blue; */
+    padding-right:30px;
+    
+}
+.close p{
+    font-size:80px;
+    /* background: green; */
+}
+
+.modal-mess{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+}
+.modal-mess p{
+    font-family: roboto;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 0.7;
+
+}
+
+.collect-data{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.collect-data p{
+    font-family:droid;
+    font-weight: 800;
+    font-size:20px;
+}
+
+.box-message-data{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-message-data p{
+    font-family: droid;
+    font-weight:600;
+}
+
+.btn-close-mess{
+    width:100%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius:5px;
+}
+
+.close-btn{
+    width:100px;
+    height:40px;
+    background: #f9ca24;
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.close-btn p{
+    font-family: roboto;
+    font-weight: 800;
+    color:white;
+    margin-top:10px;
+}
